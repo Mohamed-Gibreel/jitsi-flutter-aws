@@ -11,10 +11,10 @@ class JitsiViewController: UIViewController {
     var eventSink:FlutterEventSink? = nil
     var roomName:String? = nil
     var serverUrl:URL? = nil
-    var subject:String? = nil
-    var audioOnly:Bool? = false
-    var audioMuted: Bool? = false
-    var videoMuted: Bool? = false
+    // var subject:String? = nil
+    // var audioOnly:Bool? = false
+    // var audioMuted: Bool? = false
+    // var videoMuted: Bool? = false
     var token:String? = nil
     var featureFlags: Dictionary<String, Any>? = Dictionary();
     
